@@ -1,5 +1,6 @@
 
 import './App.css'
+import Faqs from './components/faq'
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1>Mini Projects</h1>
+      <Faqs/>
     </>
   )
 }
