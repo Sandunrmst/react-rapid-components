@@ -1,5 +1,6 @@
 import { useState } from "react"
 import faqData from "./data"
+import './styles.css'
 
 
 const Faqs = () => {
