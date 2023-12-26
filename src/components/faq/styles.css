@@ -1,5 +1,7 @@
 .wrapper{
     display: flex;
+    flex-direction: column;
+    gap: 20px;
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -32,4 +34,18 @@
     border-radius: 5px;
     padding: 15px;
     
+}
+
+.btn{
+    background: #0065b8;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+.btn:hover{
+    background: #047fe4;
 }
