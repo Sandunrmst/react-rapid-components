@@ -2,6 +2,7 @@
 import './App.css'
 import Faqs from './components/faq'
 import RandomColor from './components/randomcolor'
+import StarRating from './components/starrating'
 
 function App() {
 
@@ -11,7 +12,9 @@ function App() {
     <>
       {/* <Faqs/> */}
 
-      <RandomColor/>
+      {/* <RandomColor/> */}
+
+      <StarRating noofStars={8}/>
     </>
   )
 }
