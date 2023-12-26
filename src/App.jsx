@@ -1,6 +1,7 @@
 
 import './App.css'
 import Faqs from './components/faq'
+import RandomColor from './components/randomcolor'
 
 function App() {
 
@@ -8,7 +9,9 @@ function App() {
 
   return (
     <>
-      <Faqs/>
+      {/* <Faqs/> */}
+
+      <RandomColor/>
     </>
   )
 }

@@ -1,0 +1,30 @@
+.randommain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.colorCode{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: '50px';
+    margin-top: '50px';
+}
+
+.btnrandom{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.btnrandom{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
