@@ -2,6 +2,7 @@ import "./App.css";
 import Faqs from "./components/faq";
 import ImageSlider from "./components/imsgeslider";
 import LoadMore from "./components/loadmore";
+import QRCodeGenerator from "./components/qrcodegenerator";
 import RandomColor from "./components/randomcolor";
 import StarRating from "./components/starrating";
 import TreeView from "./components/treeview";
@@ -20,7 +21,9 @@ function App() {
 
       {/* <LoadMore /> */}
 
-      <TreeView menus={menu} />
+      {/* <TreeView menus={menu} /> */}
+
+      <QRCodeGenerator />
     </>
   );
 }
