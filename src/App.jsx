@@ -1,14 +1,11 @@
-
-import './App.css'
-import Faqs from './components/faq'
-import ImageSlider from './components/imsgeslider'
-import RandomColor from './components/randomcolor'
-import StarRating from './components/starrating'
+import "./App.css";
+import Faqs from "./components/faq";
+import ImageSlider from "./components/imsgeslider";
+import LoadMore from "./components/loadmore";
+import RandomColor from "./components/randomcolor";
+import StarRating from "./components/starrating";
 
 function App() {
-
-  
-
   return (
     <>
       {/* <Faqs/> */}
@@ -17,9 +14,11 @@ function App() {
 
       {/* <StarRating noofStars={8}/> */}
 
-      <ImageSlider url={'https://picsum.photos/v2/list'} page={'1'} limit={6}/>
+      {/* <ImageSlider url={'https://picsum.photos/v2/list'} page={'1'} limit={6}/> */}
+
+      <LoadMore />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
