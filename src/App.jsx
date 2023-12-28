@@ -1,6 +1,7 @@
 import "./App.css";
 import Faqs from "./components/faq";
 import ImageSlider from "./components/imsgeslider";
+import LightDarkMode from "./components/lightdarkmode";
 import LoadMore from "./components/loadmore";
 import QRCodeGenerator from "./components/qrcodegenerator";
 import RandomColor from "./components/randomcolor";
@@ -23,7 +24,9 @@ function App() {
 
       {/* <TreeView menus={menu} /> */}
 
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
+
+      <LightDarkMode />
     </>
   );
 }
