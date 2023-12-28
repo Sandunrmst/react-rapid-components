@@ -1,4 +1,5 @@
 import "./App.css";
+import TabItem from "./components/customtabs/tabitem";
 import Faqs from "./components/faq";
 import ImageSlider from "./components/imsgeslider";
 import LightDarkMode from "./components/lightdarkmode";
@@ -29,7 +30,9 @@ function App() {
 
       {/* <LightDarkMode /> */}
 
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+
+      <TabItem />
     </>
   );
 }
