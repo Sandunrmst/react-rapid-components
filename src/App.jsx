@@ -1,4 +1,5 @@
 import "./App.css";
+import ModalTest from "./components/custommodal/modalitem";
 import TabItem from "./components/customtabs/tabitem";
 import Faqs from "./components/faq";
 import ImageSlider from "./components/imsgeslider";
@@ -32,7 +33,9 @@ function App() {
 
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
 
-      <TabItem />
+      {/* <TabItem /> */}
+
+      <ModalTest />
     </>
   );
 }
