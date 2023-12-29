@@ -9,6 +9,7 @@ import LoadMore from "./components/loadmore";
 import QRCodeGenerator from "./components/qrcodegenerator";
 import RandomColor from "./components/randomcolor";
 import ScrollIndicator from "./components/scrollindicator";
+import SearchAutocomplete from "./components/searchautocomplete";
 import StarRating from "./components/starrating";
 import TreeView from "./components/treeview";
 import menu from "./components/treeview/data";
@@ -38,7 +39,9 @@ function App() {
 
       {/* <ModalTest /> */}
 
-      <GithubProfileFinder />
+      {/* <GithubProfileFinder /> */}
+
+      <SearchAutocomplete />
     </>
   );
 }
