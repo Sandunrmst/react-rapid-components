@@ -2,6 +2,7 @@ import "./App.css";
 import ModalTest from "./components/custommodal/modalitem";
 import TabItem from "./components/customtabs/tabitem";
 import Faqs from "./components/faq";
+import GithubProfileFinder from "./components/githubprofilefinder";
 import ImageSlider from "./components/imsgeslider";
 import LightDarkMode from "./components/lightdarkmode";
 import LoadMore from "./components/loadmore";
@@ -35,7 +36,9 @@ function App() {
 
       {/* <TabItem /> */}
 
-      <ModalTest />
+      {/* <ModalTest /> */}
+
+      <GithubProfileFinder />
     </>
   );
 }
