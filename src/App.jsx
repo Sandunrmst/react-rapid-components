@@ -2,6 +2,8 @@ import "./App.css";
 import ModalTest from "./components/custommodal/modalitem";
 import TabItem from "./components/customtabs/tabitem";
 import Faqs from "./components/faq";
+import FeatureFlags from "./components/featureflag";
+import FeatureFlagGlobalState from "./components/featureflag/context";
 import GithubProfileFinder from "./components/githubprofilefinder";
 import ImageSlider from "./components/imsgeslider";
 import LightDarkMode from "./components/lightdarkmode";
@@ -44,7 +46,11 @@ function App() {
 
       {/* <SearchAutocomplete /> */}
 
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+
+      <FeatureFlagGlobalState>
+        <FeatureFlags />
+      </FeatureFlagGlobalState>
     </>
   );
 }
