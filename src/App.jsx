@@ -21,6 +21,7 @@ import menu from "./components/treeview/data";
 import UseOnclickOutsideTest from "./components/useOutsideClick/test";
 import UseWindowResizeTest from "./components/useWindowResize/test";
 import UseFetchHookTest from "./components/usefetch/test";
+import Weather from "./weatherapp/components/weather";
 
 function App() {
   return (
@@ -65,7 +66,9 @@ function App() {
 
       {/* <ScrollToTopAndBottom /> */}
 
-      <ScrollToSection />
+      {/* <ScrollToSection /> */}
+
+      <Weather />
     </>
   );
 }
