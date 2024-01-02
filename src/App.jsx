@@ -10,6 +10,7 @@ import LightDarkMode from "./components/lightdarkmode";
 import LoadMore from "./components/loadmore";
 import QRCodeGenerator from "./components/qrcodegenerator";
 import RandomColor from "./components/randomcolor";
+import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
 import ScrollIndicator from "./components/scrollindicator";
 import SearchAutocomplete from "./components/searchautocomplete";
 import StarRating from "./components/starrating";
@@ -59,7 +60,9 @@ function App() {
 
       {/* <UseOnclickOutsideTest /> */}
 
-      <UseWindowResizeTest />
+      {/* <UseWindowResizeTest /> */}
+
+      <ScrollToTopAndBottom />
     </>
   );
 }
