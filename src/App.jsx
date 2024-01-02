@@ -10,6 +10,7 @@ import LightDarkMode from "./components/lightdarkmode";
 import LoadMore from "./components/loadmore";
 import QRCodeGenerator from "./components/qrcodegenerator";
 import RandomColor from "./components/randomcolor";
+import ScrollToSection from "./components/scroll-to-sections";
 import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
 import ScrollIndicator from "./components/scrollindicator";
 import SearchAutocomplete from "./components/searchautocomplete";
@@ -62,7 +63,9 @@ function App() {
 
       {/* <UseWindowResizeTest /> */}
 
-      <ScrollToTopAndBottom />
+      {/* <ScrollToTopAndBottom /> */}
+
+      <ScrollToSection />
     </>
   );
 }
