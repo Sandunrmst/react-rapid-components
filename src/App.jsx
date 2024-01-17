@@ -1,4 +1,5 @@
 import "./App.css";
+import Dropdown from "./components/animatedropdown/Dropdown";
 import ModalTest from "./components/custommodal/modalitem";
 import TabItem from "./components/customtabs/tabitem";
 import Faqs from "./components/faq";
@@ -68,7 +69,8 @@ function App() {
 
       {/* <ScrollToSection /> */}
 
-      <Weather />
+      {/* <Weather /> */}
+      <Dropdown />
     </>
   );
 }
