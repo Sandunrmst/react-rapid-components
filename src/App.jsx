@@ -1,5 +1,6 @@
 import "./App.css";
 import Dropdown from "./components/animatedropdown/Dropdown";
+import DynamicList from "./components/animatedropdown/DynamicList";
 import ModalTest from "./components/custommodal/modalitem";
 import TabItem from "./components/customtabs/tabitem";
 import Faqs from "./components/faq";
@@ -71,6 +72,7 @@ function App() {
 
       {/* <Weather /> */}
       <Dropdown />
+      <DynamicList />
     </>
   );
 }
